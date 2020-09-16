@@ -24,6 +24,11 @@ nav{
 }
 .nav-item{
     padding: 1rem;
+    color: black;
+    text-underline-position: unset;
+}
+.links{
+    text-decoration: none;
 }
 
 .home{
@@ -313,3 +318,10 @@ form{
     font-weight: bold;
     padding: 1rem;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .splash-screen, .container2, .container1, .about-container, .resume-container, .services-container, .contact-container {
+      width:100%;
+    }
+  }
